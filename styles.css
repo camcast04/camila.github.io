@@ -182,7 +182,8 @@ a:hover{
    }
 
 .details {
-    font-size: 1.1rem;
+    font-size: 1rem;
+     padding: .6rem;
     background-color: rgba(248, 246, 252, 0.726);
     box-shadow:5px 5px rgba(203, 186, 223, 1);
     display: inline-block;
