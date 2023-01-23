@@ -126,7 +126,7 @@ a:hover{
       background: rgba(248, 246, 252, 0.726);
       border: solid 1px rgb(203,186,223);
       border-radius: 1px;
-      box-shadow: 10px 10px .1px .1px rgba(203, 186, 223, 1);;
+      box-shadow: 10px 10px .1px .1px rgba(203, 186, 223, 1);
       font-weight: 600;
       color:#21383e;
     }
