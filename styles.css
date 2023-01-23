@@ -124,6 +124,7 @@ a:hover{
       padding: .5rem 1rem;
       margin: 0 1.5rem 1.5rem 0;
       background: rgba(248, 246, 252, 0.726);
+      border: solid 1px rgb(203,186,223);
       border-radius: 1px;
       box-shadow: 10px 10px .1px .1px rgba(203, 186, 223, 1);;
       font-weight: 600;
@@ -183,10 +184,11 @@ a:hover{
 
 .details {
     font-size: 1rem;
-     padding: .6rem;
+    padding: .6rem;
     background-color: rgba(248, 246, 252, 0.726);
     box-shadow:5px 5px rgba(203, 186, 223, 1);
     display: inline-block;
+    border: solid 1px rgb(203,186,223);
     border-radius: 5px;
     margin: auto;
     
