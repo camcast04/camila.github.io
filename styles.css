@@ -1,0 +1,234 @@
+html {
+    scroll-behavior: smooth; } 
+
+body {
+    
+    box-sizing: border-box;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #faf3e0; 
+    color: #36456d;
+}
+
+h1 { 
+    font-family: 'Merriweather', serif;
+    font-size: 3.2rem;  
+    font-weight: 900;
+    margin-bottom: 3rem;
+}
+
+h2 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+a:hover{
+    text-decoration: none;
+    color:#FF7268;
+}
+  
+
+.large-circle {
+    opacity: .7;
+    width: 70%;
+    margin-left: 10%;
+    
+ }
+
+
+/* navigation bar */
+
+.navbar {
+    padding: 0 0 4rem;
+    
+}
+
+.navbar-brand{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2.3rem;
+    font-weight: 400;
+}
+
+.nav-item {
+    padding: 0 18px;  
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 114, 104, .5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+/* buttons */
+
+.btn {
+    text-align: center;
+    margin: 5% 3% 5% 0;
+    background-color: #FF7268;
+    border: #FF7268;
+    color:#f7edcd;
+    font-weight: 900;
+    box-shadow: #21383e 0px 5px;
+
+}
+
+/* title */
+
+#title {
+    color: #36456d;
+    right: 20%;
+  
+}
+
+.container-fluid{
+    padding: 3% 9% 10%;
+}
+
+
+/* about me */
+
+.about-skills-title {
+    font-weight: 700;
+    margin-bottom: 3rem; 
+}
+
+
+.about-skills-para {
+    max-width: 60rem;
+    line-height: 1.5;
+    margin-bottom: .7rem; 
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap; 
+}
+  
+.skills_item {
+      padding: .5rem 1rem;
+      margin: 0 1.5rem 1.5rem 0;
+      background: rgba(248, 246, 252, 0.726);
+      border-radius: 1px;
+      box-shadow: 10px 10px .1px .1px rgba(203, 186, 223, 1);;
+      font-weight: 600;
+      color:#21383e;
+    }
+
+#skills {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+/* portfolio */
+
+#my-portfolio {
+    padding: 3% 8%;
+    text-align: center;
+}
+
+
+.portfolio-title {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.portfolio-image-main {
+    margin-top: 8%;
+     width: 80%;
+     opacity: .7;
+ }
+
+.portfolio-image {
+    width: 110%;
+    margin: 20px;
+    filter: sepia(25%);
+}
+
+.portfolio-text{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+
+/* carousel specifics */
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FF7268' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+.carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FF7268' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+   }
+
+.details {
+    font-size: 1.1rem;
+    background-color: rgba(248, 246, 252, 0.726);
+    box-shadow:5px 5px rgba(203, 186, 223, 1);
+    display: inline-block;
+    border-radius: 5px;
+    margin: auto;
+    
+}
+
+/* call to action */
+
+#cta {
+    padding: 7% 15% 2% 15%;
+    text-align: center;
+    font-weight: 700;  
+}
+
+#cta .btn{
+    margin: auto;
+}
+
+
+/* footer */
+
+#footer {
+    padding: 2% 15% 3% 15%;
+    text-align: center;
+}
+
+#footer p{
+    padding: 3% 15%;
+}
+
+.fa-basketball, .fa-linkedin, .fa-github {
+    margin: 0 1rem;
+    font-size: 1.3rem;
+}
+
+
+
+@media (max-width: 1028px){
+    
+    #title {
+        text-align: center;
+    }
+    .social-icons{
+        margin:5px 10px;
+    }
+
+}
